@@ -14,6 +14,8 @@ This repository contains the implementation of the Earliest Deadline First (EDF)
 - [Contributions](#contributions)
 ---
 
+![Screenshot 2023-08-12 093244](https://github.com/t0ti20/Implementing_EDF_Scheduler/assets/61616031/0185c2ae-bae6-466b-8179-f8a37876917b)
+
 ## Introduction
 
 Earliest Deadline First (EDF) adopts a dynamic priority-based preemptive scheduling policy. This means that the priority of a task can change during its execution. If there is a request for a higher-priority task, the current task's processing will be interrupted.
@@ -47,7 +49,10 @@ The system implementation with the EDF scheduler has been verified using:
 - The Simso offline simulator.
 - Keil simulator in runtime.
 
-Results of the verification methods, along with screenshots and comments, can be found in the `report.pdf`.
+Results of the verification methods, along with screenshots and comments, can be found in the - [Report](https://github.com/t0ti20/Implementing_EDF_Scheduler/blob/master/4-Verifying%20The%20System%20Implementation/Schedulability%20Calculation.pdf).
+
+![Screenshot 2023-08-12 093244](https://github.com/t0ti20/Implementing_EDF_Scheduler/assets/61616031/03195b42-b7d8-4ce6-be3e-f3e505428e86)
+
 
 ## Suggestions for Enhancement
 
